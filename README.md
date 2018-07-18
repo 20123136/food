@@ -5,7 +5,6 @@
 ## 生存的首要任务是吃饭
 ## 遂，此学习笔记取名food
 
-参考链接
-![](参考链接 "https://cnodejs.org/topic/55fac7eced1da72438e33a7d")
 
-https://cnodejs.org/topic/55fac7eced1da72438e33a7d
+[参考链接](https://cnodejs.org/topic/55fac7eced1da72438e33a7d)
+
