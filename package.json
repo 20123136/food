@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "path": "^0.12.7",
-    "strip-json-comments": "^2.0.1"
+    "strip-json-comments": "^2.0.1",
+    "yamljs": "^0.3.0"
   }
 }
