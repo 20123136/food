@@ -3,6 +3,8 @@
 
     "port": 8085,
 
+    "desc": "configWithoutComments.json",
+
     "security_hostname": "172.16.20.72",
     "security_hostport": 8140,
 

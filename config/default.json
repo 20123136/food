@@ -1,10 +1,10 @@
-var config = {
+{
     "global": {
 
         //访问端口
         "port": 8085,
 
-        "desc": 'config.js',
+        "desc": "default.json",
 
         //登录
         "security_hostname": "172.16.20.72",
@@ -28,5 +28,3 @@ var config = {
 
     }
 }
-
-module.exports = config;

@@ -7,6 +7,6 @@
 
 [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 [Node.js中文网](http://nodejs.cn/api/)
-[参考链接](https://cnodejs.org/topic/55fac7eced1da72438e33a7d)
 [require() 源码解读](http://www.ruanyifeng.com/blog/2015/05/require.html)
 
+[Node.js 项目的配置文件](https://cnodejs.org/topic/55fac7eced1da72438e33a7d)
