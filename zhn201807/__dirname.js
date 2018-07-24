@@ -18,7 +18,14 @@ console.log(path.resolve('../zhn201807/__dirname.js'), path.resolve('../config/c
 console.log('----------------------------');
 
 console.log(path.resolve(__dirname, 'aaa/bbb'));// 第一个参数(该行代码执行所在的目录)和第二个参数的拼接
+console.log(path.resolve('zhn201807', 'aaa/bbb')); // 第一个参数(该行代码执行所在的目录)和第二个参数的拼接
+console.log(path.resolve('./zhn201807', 'aaa/bbb')); // 第一个参数(该行代码执行所在的目录)和第二个参数的拼接
+console.log(path.resolve('../zhn201807', 'aaa/bbb')); // 第一个参数(该行代码执行所在的路径的上级目录)和第二个参数的拼接
+console.log('----------------------------');
 console.log(path.join(__dirname, 'aaa/bbb')); // 第一个参数(该行代码执行所在的目录)和第二个参数的拼接
+console.log(path.join('zhn201807', 'aaa/bbb')); // 纯字符串的拼接
+console.log(path.join('./zhn201807', 'aaa/bbb')); // 纯字符串(去掉./)的拼接
+console.log(path.join('../zhn201807', 'aaa/bbb')); // 纯字符串的拼接
 
 console.log('----------------------------');
 console.log(path.join(), path.join(''));// 都输出一个点：.
