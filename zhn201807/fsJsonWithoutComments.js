@@ -5,3 +5,4 @@
 var fs = require('fs'); // file system
 var config = JSON.parse(fs.readFileSync('../config/configWithoutComments.json').toString());
 console.log(config);
+console.log(fs.readFileSync('../config/configWithoutComments.json'));
