@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>vue</title>
+    <title>filter</title>
 
     <style>
         .zhangsan-enter-active, .zhangsan-leave-active {
@@ -27,16 +27,11 @@
 <body>
 
 <div id="test1">
-    <button @click="isShow = !isShow">toggle</button>
-    <transition name="zhangsan">
-        <p v-if="isShow">zhangsan</p>
-    </transition>
-</div>
-<div id="test2">
-    <button @click="isShow = !isShow">toggle</button>
-    <transition name="lisi">
-        <p v-if="isShow">lisi</p>
-    </transition>
+    <h2>原时间：</h2>
+    <p>{{date}}</p>
+
+    <h2>格式化后的时间：</h2>
+    <p>{{date | formateDate}}</p>
 </div>
 
 </body>
@@ -44,19 +39,16 @@
 
 <script type="text/javascript" src="vue.js"></script>
 <script type="text/javascript">
+
+    Vue.filter('formate_date', function(value){
+
+    })
+
     new Vue({
         el: '#test1',
         data(){
             return {
-                isShow: true
-            }
-        }
-    })
-    new Vue({
-        el: '#test2',
-        data(){
-            return {
-                isShow: true
+                date: new Date(),
             }
         }
     })
