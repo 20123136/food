@@ -31,17 +31,19 @@
     <p>{{date}}</p>
 
     <h2>格式化后的时间：</h2>
-    <p>{{date | formateDate}}</p>
+    <p>{{date | formate_date}}</p>
 </div>
 
 </body>
 </html>
 
-<script type="text/javascript" src="vue.js"></script>
+<script type="text/javascript" src="zhn201807/vue.js"></script>
 <script type="text/javascript">
 
-    Vue.filter('formate_date', function(value){
+    var moment = require('moment');
 
+    Vue.filter('formate_date', function(value){
+        return moment(value, "YYYY-MM-DD HH:mm:ss");
     })
 
     new Vue({
